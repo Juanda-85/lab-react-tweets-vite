@@ -4,8 +4,6 @@ import Timestamp from "./Timestamp";
 import Message from "./Message";
 import Actions from "./Actions";
 
-
-
 function Tweet(props) {
   const {user, timestamp, message} = props.tweet
   const {name, image, handle} = user;
